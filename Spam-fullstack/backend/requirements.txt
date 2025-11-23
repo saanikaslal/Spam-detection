@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+tensorflow
+pydantic
+ #pip installing them using terminal
+
+
+
+#CREATED A virtual env for the project venv
+step1: python -m venv venv
+step 2: .\venv\Scripts\activate
+step 3 : pip install in venv
+ 
+ #command to run fast api server
+ cd backend
+uvicorn main:app --reload
